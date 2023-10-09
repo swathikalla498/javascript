@@ -1,0 +1,22 @@
+<html>
+  <head>
+      <script>
+    alert("welcome to javascript")
+      </script>
+  </head>
+    <body>
+       <h3 align=Z"center">Java Script<h3>
+       <p> This is my javascript example...</p>
+
+        <script>
+            console.log("this is Swathi");
+         console.log(jsOperation(10,20));
+            var x=10;
+            var y=20;
+           const z=24;
+       function jsOperation(){
+         (x+y);
+}
+      </script>
+</body>
+</html>                                                  
