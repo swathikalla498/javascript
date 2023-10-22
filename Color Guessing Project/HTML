@@ -1,0 +1,35 @@
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="ColorGuess.css">
+
+        <title>ColorGuessing</title>
+
+<style>
+
+    </style>    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>color guessing game</h2>
+                <h2>rgb(255,263,245)</h2>
+            </div>
+            <div class="section">
+                <button class="btn">New color</button>
+                <button class="btn">Result</button>
+                <button class="btn">New color</button>
+
+            </div>
+        <div class="footer">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        </div>
+        <script src="ColorGuess.js"></script>
+
+    </body>
+</html>
