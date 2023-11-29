@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>React</title>
+    </head>
+    <body>
+        <div id="root"></div>
+        <div id="ul_div"></div>
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<script>
+   
+    let h1=React.createElement("h1","()","Hello React");
+    ReactDOM.render(h1,document.getElementById("root"));
+
+//creating child elements in react
+//creating fruits list
+ let ul=React.createElement("ul",null,React.createElement("li",null,"banana"),React.createElement("li",null,"Apple"));
+
+ ReactDOM.render(ul,document.getElementById("ul_div"));
+
+</script>
+    </body>
+</html>
