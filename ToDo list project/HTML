@@ -1,0 +1,22 @@
+<html>
+    <meta charset="utf-8">
+
+    <head>
+        <title>ToDo list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+        
+        <div class="store">
+          <div id="newtask">
+            <input type="text" id="text" placeholder="enter text to add" >
+            <button id="add">add</button>    
+              </div>
+        <div id="list"></div>
+        </div>
+        <script>
+           
+        </script>
+    </body>
+</html>
