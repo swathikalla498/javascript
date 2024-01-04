@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>JavaScript Demo
+        </title>
+    </head>
+    <body>
+        <input type="" id="fn" />
+        <input type="" id="sn" />
+        <button ="submit" onclick="Add()">Add</button>
+        <button ="submit" onclick="Difference()">Sub</button>
+        <button ="submit" onclick="Product()">Multiply</button>
+        <button ="submit" onclick="Division()">Divide</button>
+        <button ="submit" onclick="Remainder()">remainder</button>
+        
+        <script>
+            function Add(){
+                let x=document.getElementById('fn').value;
+                let xVal=parseInt(x);
+                let y=document.getElementById('sn').value;
+                let yval=parseInt(y);
+
+                let z=xVal+yval;
+                document.write(z);
+            }
+                function Difference(){
+                let x=document.getElementById('fn').value;
+                let xVal=parseInt(x);
+                let y=document.getElementById('sn').value;
+                let yval=parseInt(y);
+
+                let z=xVal-yval;
+                document.write(z);
+                }
+
+                function Product(){
+                let x=document.getElementById('fn').value;
+                let xVal=parseInt(x);
+                let y=document.getElementById('sn').value;
+                let yval=parseInt(y);
+
+                let z=xVal*yval;
+                document.write(z);
+                }
+
+                function Division(){
+                let x=document.getElementById('fn').value;
+                let xVal=parseInt(x);
+                let y=document.getElementById('sn').value;
+                let yval=parseInt(y);
+
+                let z=xVal/yval;
+                document.write(z);
+                }
+       
+                
+                function Remainder(){
+                let x=document.getElementById('fn').value;
+                let xVal=parseInt(x);
+                let y=document.getElementById('sn').value;
+                let yval=parseInt(y);
+
+                let z=x%y;
+                document.write(z);
+                }
+         </script>
+        
+        
+    </body>
+</html>
